@@ -39,8 +39,7 @@
                         <!--suppress MavenModelInspection -->
                         <webdriver.gecko.driver>${webdriver.gecko.driver}</webdriver.gecko.driver>
                         <!--suppress MavenModelInspection -->
-                        <webdriver.chrome.driver>${webdriver.chrome.driver}
-                        </webdriver.chrome.driver>
+                        <webdriver.chrome.driver>${webdriver.chrome.driver} </webdriver.chrome.driver>
                         <!--suppress MavenModelInspection -->
                         <webdriver.opera.driver>${webdriver.opera.driver}</webdriver.opera.driver>
                         <!--suppress MavenModelInspection -->
@@ -76,7 +75,8 @@
                                 <!--
                                        Change this to select the browser to use.  E.g: firefox, chrome, edge, ect.
                                       -->
-                                <webdriver>firefox</webdriver>
+                                <!--<webdriver>firefox</webdriver>-->
+                                <browser>firefox</browser>
                             </systemPropertyVariables>
                         </configuration>
                     </plugin>
