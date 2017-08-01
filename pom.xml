@@ -76,7 +76,9 @@
                                        Change this to select the browser to use.  E.g: firefox, chrome, edge, ect.
                                       -->
                                 <!--<webdriver>firefox</webdriver>-->
-                                <browser>firefox</browser>
+                                <!--<webdriver.gecko.driver>selenium_standalone/osx/marionette/64bit/geckodriver</webdriver.gecko.driver>-->
+                                <webdriver>chrome</webdriver>
+                                <webdriver.chrome.driver>selenium_standalone/osx/googlechrome/64bit/chromedriver</webdriver.chrome.driver>
                             </systemPropertyVariables>
                         </configuration>
                     </plugin>
